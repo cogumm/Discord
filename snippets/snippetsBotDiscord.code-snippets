@@ -1,0 +1,19 @@
+{
+	"botBasic": {
+		"prefix": "botBasic",
+		"body": [
+			"module.exports.run = async (client, message, args) => {",
+			"    message.delete();",
+			"    $1",
+			"",
+			"}",
+			"",
+			"module.exports.help = {",
+			"    name: \"COMANDO\",",
+			"    aliases: []",
+			"};",
+			""
+		],
+		"description": "Estrutura básica para qualquer comando do bot."
+	}
+}
