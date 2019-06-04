@@ -45,3 +45,7 @@ Aqui está um exemplo do que um Embed pode parecer. Vamos passar por cima da con
 		</discord-embed>
 	</discord-message>
 </div>
+
+## Usando o constructor do RichEmbed
+
+A classe [RichEmbed](https://discord.js.org/#/docs/main/stable/class/RichEmbed) do Discord.js facilitar a construção e manipulação das Embeds.
