@@ -15,5 +15,23 @@
 			""
 		],
 		"description": "Estrutura básica para qualquer comando do bot."
+	},
+
+	"Comentário de uma linha": {
+		"prefix": "botComment1",
+		"body": [
+			"// $1",
+		],
+		"description": "Adicionando comentários de uma linha no bot."
+	},
+
+	"Comentário mais de uma linha": {
+		"prefix": "botComment2",
+		"body": [
+			"/*",
+			"**** $1",
+			"*/"
+		],
+		"description": "Adicionando comentários mais de uma linha no bot."
 	}
 }

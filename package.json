@@ -1,8 +1,8 @@
 {
     "author": "Gabriel CoGUMm",
-    "name": "snippetsbotdiscord",
+    "name": "cgmdiscord",
     "version": "1.0.0",
-    "description": "Snippets ou atalhos para criação de modelos padrões para bots do Discord.",
+    "description": "Temas, mods personalizados e dicas para o querido Discord.",
     "main": "",
     "engines": {
         "vscode": "^1.34.0"
@@ -19,14 +19,12 @@
         "Discord.js",
         "Bot Discord",
         "NodeJS",
-        "VSCode",
-        "snippets"
+        "VSCode"
     ],
     "bugs": {
         "url": "https://github.com/cogumm/Discord/issues",
         "email": "gabriel@cogumm.net"
     },
     "homepage": "https://github.com/cogumm/Discord#readme",
-    "categories": ["Programming Languages", "Snippets"],
     "license": "MIT"
 }
