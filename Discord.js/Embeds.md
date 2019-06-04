@@ -23,17 +23,17 @@ const embedExemplo = new Discord.RichEmbed()
 	.setColor('#0099ff')
 	.setTitle('Algum título aqui')
 	.setURL('https://discord.js.org/')
-	.setAuthor('Algum nome', 'https://github.com/cogumm/cogumm.net/blob/master/2014/images/work/cgm_labs.png', 'https://discord.js.org')
+	.setAuthor('Algum nome', 'https://IMAGEM/imagem.png', 'https://discord.js.org')
 	.setDescription('Alguma descrição aqui')
-	.setThumbnail('https://github.com/cogumm/cogumm.net/blob/master/2014/images/work/cgm_labs.png')
+	.setThumbnail('https://IMAGEM/imagem.png')
 	.addField('Regular field title', 'Algum valor aqui')
 	.addBlankField()
 	.addField('Inline field title', 'Algum valor aqui', true)
 	.addField('Inline field title', 'Algum valor aqui', true)
 	.addField('Inline field title', 'Algum valor aqui', true)
-	.setImage('https://github.com/cogumm/cogumm.net/blob/master/2014/images/work/cgm_labs.png')
+	.setImage('https://IMAGEM/imagem.png')
 	.setTimestamp()
-	.setFooter('Algum texto de footer aqui', 'https://github.com/cogumm/cogumm.net/blob/master/2014/images/work/cgm_labs.png');
+	.setFooter('Algum texto de footer aqui', 'https://IMAGEM/imagem.png');
 
 channel.send(embedExemplo);
 ```
